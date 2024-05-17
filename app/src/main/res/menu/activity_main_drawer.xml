@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_chart"
+            android:icon="@drawable/line"
+            android:title="@string/menu_chart" />
+        <item
+            android:id="@+id/nav_reservations"
+            android:icon="@drawable/literature"
+            android:title="@string/menu_reservations" />
+        <item
+            android:id="@+id/nav_Vaccines"
+            android:icon="@drawable/pill"
+            android:title="@string/menu_Vaccines" />
+        <item
+            android:id="@+id/nav_Logout"
+            android:icon="@drawable/logout"
+            android:title="@string/menu_Logout" />
+    </group>
+</menu>
